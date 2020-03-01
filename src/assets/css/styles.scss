@@ -1,0 +1,149 @@
+@import 'colors';
+
+$border: 1px solid $border-color;
+
+html {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #e2e2e2;
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  background-color: $themeBg;
+}
+#root {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 100vh;
+}
+.fixed-body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $themeBg;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  z-index: 1;
+  padding: 30px 8% 55px;
+  &_body {
+    background-color: $themeBg;
+    padding: 40px 20px;
+  }
+  &_tab {
+    display: flex;
+    padding-bottom: 30px;
+    .tab {
+      border: 1px solid $dark-grey;
+      padding: 5px 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+.marginPadding {
+  margin: 0;
+  padding: 0;
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba($color: $themeBg, $alpha: 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.Card_container {
+  background-color: $white;
+  width: 86%;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+.Home {
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    .btn {
+      font-size: 18px;
+    }
+  }
+  &_clear {
+    color: $link;
+    cursor: default;
+  }
+  &_body {
+    padding: 10px 20px;
+  }
+  table {
+    table-layout: auto;
+  }
+  .task_name {
+  }
+}
+
+.active {
+  background-color: $theme;
+  color: white;
+}
+
+.badge {
+  min-width: 80px;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.AddItem {
+  &_body {
+    padding: 20px;
+  }
+  &_date {
+    width: 60%;
+  }
+  .footer_btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    .btn {
+      margin-left: 10px;
+    }
+  }
+}
