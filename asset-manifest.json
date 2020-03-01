@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/redux_curd_operation/static/css/main.5d22ab48.chunk.css",
+    "main.js": "/redux_curd_operation/static/js/main.af287f69.chunk.js",
+    "main.js.map": "/redux_curd_operation/static/js/main.af287f69.chunk.js.map",
+    "runtime-main.js": "/redux_curd_operation/static/js/runtime-main.c8b9ca29.js",
+    "runtime-main.js.map": "/redux_curd_operation/static/js/runtime-main.c8b9ca29.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/redux_curd_operation/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.38a7a41e.chunk.js": "/redux_curd_operation/static/js/2.38a7a41e.chunk.js",
+    "static/js/2.38a7a41e.chunk.js.map": "/redux_curd_operation/static/js/2.38a7a41e.chunk.js.map",
+    "index.html": "/redux_curd_operation/index.html",
+    "precache-manifest.850344e5b9924f14c2785d782522fd43.js": "/redux_curd_operation/precache-manifest.850344e5b9924f14c2785d782522fd43.js",
+    "service-worker.js": "/redux_curd_operation/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/redux_curd_operation/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.5d22ab48.chunk.css.map": "/redux_curd_operation/static/css/main.5d22ab48.chunk.css.map",
+    "static/js/2.38a7a41e.chunk.js.LICENSE.txt": "/redux_curd_operation/static/js/2.38a7a41e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8b9ca29.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.38a7a41e.chunk.js",
+    "static/css/main.5d22ab48.chunk.css",
+    "static/js/main.af287f69.chunk.js"
+  ]
+}
